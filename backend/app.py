@@ -12,14 +12,14 @@ CORS(app)  # Allow frontend requests
 
 # Polygon.io API Helper
 def fetch_polygon_data(symbol):
-    api_key = os.getenv("POLYGON_API_KEY")
+    api_key = os.getenv("Yy=T~d6!u[5X}/H{D>m8GU")
     url = f"https://api.polygon.io/v2/aggs/ticker/{symbol}/range/1/day/2023-01-01/2023-12-31?apiKey={api_key}"
     response = requests.get(url)
     return response.json()
 
 # NewsAPI Helper
 def fetch_news(query):
-    api_key = os.getenv("NEWS_API_KEY")
+    api_key = os.getenv("daaa02d5b6bf4dc1a5a94dcaba8c4bcf")
     url = f"https://newsapi.org/v2/everything?q={query}&apiKey={api_key}"
     response = requests.get(url)
     return response.json()
